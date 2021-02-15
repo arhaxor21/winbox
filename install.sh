@@ -40,6 +40,7 @@ banner "updating linux and packages"
 sudo apt update 
 sudo apt upgrade
 sudo apt install python3-pip
+sudo apt-get install apache2
 sudo apt install git
 sudo apt install dnsmap
 sudo apt install ipcalc
