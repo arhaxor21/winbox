@@ -35,6 +35,13 @@ echo "nameserver 8.8.4.4" >>/etc/resolv.conf
 
 echo "Resolv config added"
 
+banner "installing automaated .bashrc for your linux"
+git clone https://github.com/arhaxor21/Autocon.git
+cd Autocon/
+cat bashrc > ~/.bashrc
+source ~/.bashrc
+echo "Successfully configured the all your alias"
+
 banner "updating linux and packages"
 
 sudo apt update 
